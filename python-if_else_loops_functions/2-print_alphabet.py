@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for letter in range(97,123):
-    print("{}".formart(chr(letter)), end="")
+for ascii_value in range(ord('a'), ord('z') + 1):
+    print(chr(ascii_value), end="")
