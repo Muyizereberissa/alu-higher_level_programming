@@ -9,7 +9,7 @@ if __name__ == "__main__":
     result_multiply = multiply(a, b)
     result_divide = divide(a, b)
 
-    print("{:d} - {:d} = {:d}")
-    print("{:d} + {:d} = {:d}")
-    print("{:d} * {:d} = {:d}")
-    print("{:d} / {:d} = {:d}")
+    print("{:d} - {:d} = {:d}".format(a, b , sub(a, b)))
+    print("{:d} + {:d} = {:d}".format(a, b, add(a, b)))
+    print("{:d} * {:d} = {:d}".format(a, b, multiply(a, b)))
+    print("{:d} / {:d} = {:d}".format(a, b, divide(a, b)))
