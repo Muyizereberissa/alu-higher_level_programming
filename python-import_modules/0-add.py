@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-a = 1
-b = 2
+if __name__ == "__main__":
+    from add_0.py import add
 
-from add_0.py import add:
-    result = add(a,b)
-    print(f"<a value> + <b value> = <add(a, b) value>", end= " ")
+    a = 1
+    b = 2
+    print("{:d} + {:d}".format(a, b, add(a +b)))
+
