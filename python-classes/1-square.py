@@ -6,4 +6,3 @@ class Square:
     def __init__(self, size):
         """this functions assigns attribute to the objects"""
         self.__size = size
-square = Square(size)
