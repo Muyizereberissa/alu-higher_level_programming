@@ -5,8 +5,17 @@ class Square:
     def __init__(self, size=0):
         """this initializes an atribute to the object"""
         self.__size = size
-try:
-    print("{:d}".format(size))
+        self.size = size
+      @property
+      def size(self):
+      """getter value for the size attribute"""
+      @size.setter 
+      def size(self, value):
+          """setter method for the attribute size
+           value ; where the value to st must be an integer """
+           if not isinstance(value, int):
+               raise TypeError("size must be an integer")
+           if value < 0:
+               raise ValueError("size must be >= 0")
 
-except (TypeError):
-    print("size must be an integer")
+            self.__size = value       
