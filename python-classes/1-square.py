@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """this code does not contain a module"""
-class Square:
+class Square(size):
     """this is a asquare class"""
-    __size
+    __size = ""
 
 square = Square(size)
