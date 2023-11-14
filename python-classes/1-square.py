@@ -2,6 +2,6 @@
 """this code does not contain a module"""
 class Square(size):
     """this is a asquare class"""
-    __size = ""
+    __size = None
 
-square = Square(size)
+square = Square()
