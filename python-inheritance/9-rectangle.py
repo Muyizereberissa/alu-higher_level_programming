@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" triangle module importing geometry """
+""" triangle module importing geometry is not present"""
 
 
 BaseGeometry = __import__("7-base_geometry").BaseGeometry
