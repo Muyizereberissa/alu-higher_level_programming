@@ -2,6 +2,7 @@
 '''Class Rectangle that inherits from BaseGeometry (7-base_geometry.py)'''
 
 class BaseGeometry:
+    """thi is a class of geometry"""
     def area(self):
         """
         Calculate the area (not implemented in the base class).
