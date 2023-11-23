@@ -9,7 +9,3 @@ def save_to_json_file(my_obj, filename):
     """Save object to a text file using JSON."""
     with open(filename, 'w+') as f:
         return json.dump(my_obj, f)
-def save_to_json_file(my_obj, filename):
-    """Save object to a text file using JSON."""
-    with open(filename, 'w+') as f:
-        return json.dump(my_obj, f)
