@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+"""documented"""
+
+
+
 def append_after(filename="", search_string="", new_string=""):
     # Check if filename is provided
     if not filename:
